@@ -1,0 +1,30 @@
+img{
+    width: 22.7vw;
+    height: 22vw;
+    
+}
+.cards{
+    margin-left: 20px;
+    border: 2px solid #00bfff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding:30px;
+    width: 30vw;
+    margin:auto;
+    margin-top: 10px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+.details{
+    display: flex;
+    
+    flex-direction: column;
+
+}
+#1{
+    margin:10px;
+}

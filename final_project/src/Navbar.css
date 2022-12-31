@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hello{
+    margin-left: 100px;
+}
+
+nav{
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+link{
+    color: white;
+}
+
+li{
+    font-family:'Montserrat',sans-serif;
+    font-size: 20px;
+    margin-right: 0;
+
+    padding:6px 25px;
+    text-align: center;
+
+}
+
+ul{
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.23);
+    border-radius: 7px;
+    margin-top: 45px;
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:linear-gradient(90deg,#84ceeb,#00bfff);
+    display: flex;
+    border: 1px solid white;
+    margin-right: 30px;
+    
+}
+.top-right-nav{
+    padding-right: 20px;
+}
+#list{
+    color: white;
+   
+    font-weight: bold;
+    
+     
+    
+}
+#list:hover{
+    background-color:white;
+   
+    color :#00bfff;
+    transition:200ms;
+}
+.logo{
+    height: 120px;
+}
